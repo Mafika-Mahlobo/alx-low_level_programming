@@ -5,7 +5,7 @@
  *
  * Return: No return value
  */
-void main(void)
+int main(void)
 {
 	int tot = 0;
 
@@ -20,4 +20,5 @@ void main(void)
 	}
 	printf("%d", i);
 	printf("\n");
+	return (0);
 }
