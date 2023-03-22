@@ -15,10 +15,10 @@ int main(void)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			tot += i;
+			tot = tot + i;
 		}
 	}
-	printf("%d", i);
+	printf("%d", tot);
 	printf("\n");
 	return (0);
 }
