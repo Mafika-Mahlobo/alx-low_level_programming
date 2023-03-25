@@ -23,7 +23,11 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		printf("%d", i);
+		else
+		{
+			printf("%d", i);
+		}
+		printf(" ");
 	}
 	putchar('\n');
 	return (0);
