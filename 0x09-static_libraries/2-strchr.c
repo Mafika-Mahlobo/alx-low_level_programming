@@ -3,5 +3,6 @@
 
 char *_strchr(char *s, char c)
 {
+	_putchar(c);
 	return (s);
 }
