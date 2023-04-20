@@ -26,5 +26,7 @@ int sum_them_all(const unsigned int n, ...)
 
 		sum += val;
 	}
+	va_end(args);
+
 	return (sum);
 }
